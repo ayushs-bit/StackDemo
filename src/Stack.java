@@ -66,7 +66,7 @@ void search()
         int c = 0;
         for (int i = 0; i < ar.length; i++) 
         {
-            if(ar[i].equals(str))
+            if(ar[i].equalsIgnoreCase(str))
             {
                c++;
                break;
