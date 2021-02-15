@@ -39,21 +39,21 @@ public class StackExampleLinkedList
         }
     
     }
-void traverse() //view
-{
-   if(top == null)
-   {
-       System.out.println("Stack empty");
-   }
-   else
-   {
-       Node current;
-       for(current = top;current!= null;current = current.next)
-       {
-           System.out.println(current.data);
-       }
-   }
-}
+    void traverse() //view
+    {
+        if(top == null)
+        {
+            System.out.println("Stack empty");
+        }
+        else
+        {
+            Node current;
+            for(current = top;current!= null;current = current.next)
+            {
+               System.out.println(current.data);
+            }
+        }
+    }
 public static void main (String args[])
 {
     StackExampleLinkedList obj = new StackExampleLinkedList();
